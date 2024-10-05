@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#360369;
+    height: 100%;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+.child{
+ width: 250px;
+ height: 150px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+font-size:40px;
+}
+ .container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+} 
+#fetchDataBtn{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: -620px;
+ width:160px;
+ height:30px;
+}
+#fetchDataBtn>a{
+    text-decoration: none;
+}
